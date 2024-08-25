@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Music Player</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/53ced50a52.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <div class="logo">
+          <img src="musiqu.jpg" alt="Musique Logo" class="logo-image" />
+          <h1>Musique</h1>
+        </div>
+        <div class="search-bar">
+          <input
+            type="text"
+            id="songSearch"
+            placeholder="Search for songs, artists, albums..."
+          />
+        </div>
+        <div class="user-profile">
+          <img src="user.jpg" alt="User Profile" class="profile-pic" />
+        </div>
+      </header>
+
+      <!-- Main Section -->
+      <div class="main-section">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#" class="active">Library</a></li>
+            <li><a href="#" class="active">Playlists</a></li>
+            <li><a href="#" class="active">Categories</a></li>
+          </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="main-content">
+          <div class="music_player">
+
+            <nav>
+              <div class="circle">
+                <i class="fa-solid fa-angle-left"></i>
+
+              </div>
+              <div class="circle">
+                <i class="fa-solid fa-angle-right"></i>
+
+              </div>
+            </nav>
+            <img src="album.png" class="song-img" alt="">
+`
+            <section class="playlist-section">
+              <h2>SONGS</h2>
+              <ul id="songList">
+                <li>
+                  <h3>1. Tere Mere</h3>
+                  <audio controls>
+                    <source src="Tere Mere.mp3" type="audio/mpeg" />
+                  </audio>
+                </li>
+                <li>
+                  <h3>2. Aisa_kyu</h3>
+                  <audio controls>
+                    <source src="Aisa_kyu.mp3" type="audio/mpeg" />
+                  </audio>
+                </li>
+                <li>
+                  <h3>3. Alone</h3>
+                  <audio controls>
+                    <source src="Alone.mp3" type="audio/mpeg" />
+                  </audio>
+                </li>
+                <li>
+                  <h3>4. Awari</h3>
+                  <audio controls>
+                    <source src="Awari.mp3" type="audio/mpeg" />
+                  </audio>
+                </li>
+                <li>
+                  <h3>5. Barishein</h3>
+                  <audio controls>
+                    <source src="Baarishein.mp3" type="audio/mpeg" />
+                  </audio>
+                </li>
+                <li>
+                  <h3>6. Ban_than</h3>
+                  <audio controls>
+                    <source src="Ban_than.mp3" type="audio/mpeg" />
+                  </audio>
+                </li>
+                <li>
+                  <h3>7. Barbaadiyan</h3>
+                  <audio controls>
+                    <source src="Barbaadiyan.mp3" type="audio/mpeg" />
+                  </audio>
+                </li>
+                <li>
+                  <h3>8. Black Heart</h3>
+                  <audio controls>
+                    <source src="Black_Heart.mp3" type="audio/mpeg" />
+                  </audio>
+                </li>
+              </ul>
+            </section>
+          </div>
+
+
+
+
+
+
+
+
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
